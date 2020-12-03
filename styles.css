@@ -1,0 +1,143 @@
+body {
+  background-image: url("background1.jpeg");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.heading{
+    font-family: 'Holtwood One SC', serif;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+    margin-left: 0;
+}
+.headdiv{
+    display: inline-block;
+}
+
+h5{
+    margin:0;
+}
+
+.logo{
+    margin-top: 40px;
+    margin-left: 170px;
+    margin-right: 20px;;
+    width: 70px;
+    height: 70px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;    
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+ .article_image{
+   float: left; 
+   margin: 0 20px 20px 0;
+   width: 400px;
+   height: 200px;
+ }
+
+ .article_para{
+   margin: 20px;
+   margin-top: 20px;
+ }
+
+  .article_div{
+      width: 1200px;
+      margin-left: 150px;
+  }
+  
+  .filmyarticle-div{
+    width: 1200px;
+    margin-left: 150px;
+    background-image: url("FILMY.jpeg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  h2{
+    font-family: 'Piedra', cursive;
+    font-size: 30px;
+    color: black;
+  }
+
+  .sportsdiv{
+    background-image: url("background1.jpeg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+  }
+
+  .sportsdivision{
+    width: 1200px;
+    margin-left: 150px;
+  }
+
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+    float: right;
+    margin-right: 70px;
+    }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+.footerimage{
+  width:30px;
+  height:30px;
+  margin: 5px;
+}
+
+.footer{
+  text-align: center;
+}
+
+
+
